@@ -159,7 +159,7 @@ class Image_GraphViz
     /**
      * Constructor
      * 
-     * Detect binPath, support for Ubuntu and Mac
+     * Detect binPath
      */
     function __construct() {
       if(file_exists('/usr/local/bin/' . $this->dotCommand)) {
